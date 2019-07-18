@@ -74,10 +74,7 @@ impl Solution {
 
 #[test]
 fn test() {
-  let mut l1 = ListNode::new(5);
-
-  // l2.next = Some(Box::from(l3));
-  // l1.next = Some(Box::from(l2.clone()));
+  let l1 = ListNode::new(5);
 
   let a = Some(Box::from(l1.clone()));
   let b = Some(Box::from(l1.clone()));

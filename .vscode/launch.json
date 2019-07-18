@@ -7,16 +7,11 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug unit tests in library 'LeetCode'",
+      "name": "Debug unit tests in library 'leet-code'",
       "cargo": {
-        "args": [
-          "test",
-          "--no-run",
-          "--lib",
-          "--package=LeetCode"
-        ],
+        "args": ["test", "--no-run", "--lib", "--package=leet-code"],
         "filter": {
-          "name": "LeetCode",
+          "name": "leet-code",
           "kind": "lib"
         }
       },
