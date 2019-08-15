@@ -4,11 +4,4 @@ pub mod house_robber;
 pub mod length_of_longest_substring;
 pub mod recover_a_tree_from_preorder_traversal;
 pub mod rotting_oranges;
-
-#[cfg(test)]
-mod tests {
-  #[test]
-  fn it_works() {
-    assert_eq!(2 + 2, 4);
-  }
-}
+pub mod path_sum;
